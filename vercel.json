@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npx expo export -p web",
+  "installCommand": "npm ci",
+  "outputDirectory": "dist",
+  "framework": null,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
+  ]
+}
